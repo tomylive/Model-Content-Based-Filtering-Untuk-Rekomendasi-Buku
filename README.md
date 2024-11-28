@@ -1,6 +1,6 @@
 ![image](https://upload.wikimedia.org/wikipedia/commons/7/78/Chambery_interieur_mediatheque_600px.jpg)
 
-# Laporan Proyek Machine Learning - Irfan Saputra Nasution
+# Model Content-Based Filtering Untuk Rekomendasi Buku pada Perpustakaan Digital atau Toko Buku Online
 ## Project Overview
 
 Dalam era perkembangan teknologi yang pesat, berbagai bidang bisnis mulai memanfaatkan machine learning untuk meningkatkan produktivitas dan efisiensi. Salah satu contohnya adalah penerapan sistem rekomendasi, yang memungkinkan bisnis memperoleh keuntungan lebih dari peningkatan pembelian barang yang direkomendasikan serta peningkatan jumlah pengunjung. Penerapan ini juga dapat digunakan di toko buku atau perpustakaan, di mana sistem rekomendasi buku membantu pengunjung menemukan bacaan yang sesuai dengan minat mereka. Selain itu, sistem ini juga berperan penting dalam meningkatkan literasi masyarakat, yang hingga kini masih tergolong rendah. [1]
@@ -262,13 +262,13 @@ Fungsi `book_recommendations` dibuat untuk menampilkan hasil rekomendasi berbasi
 
 Dalam fungsi `book_recommendations`, digunakan fungsi `argpartition()` untuk mengambil k nilai tertinggi dari data kesamaan. Selanjutnya, data disusun berdasarkan bobot kesamaan dari yang tertinggi ke terendah, dan hasilnya dimasukkan ke dalam variabel bernama 'closest'. Kemudian, judul buku yang digunakan sebagai referensi (book_title) dihapus dari daftar rekomendasi agar tidak muncul dalam hasil yang diberikan. Dengan demikian, fungsi ini mencari judul buku yang mirip dengan judul buku yang dimasukkan sebagai input pada parameter `book_title`. Contoh penggunaan fungsi ini dan daftar judul buku yang digunakan dapat dilihat pada Gambar 10.
 
-![image](https://github.com/user-attachments/assets/8e8025a0-d9d0-414a-b050-ce7ba50751e4)
+![image](https://raw.githubusercontent.com/tomylive/Model-Content-Based-Filtering-Untuk-Rekomendasi-Buku/refs/heads/main/img/2024-11-28_23-20-28.jpg)
 
 Gambar 10. Contoh judul buku yang digunakan untuk menampilkan rekomendasi
 
-Pada Gambar 10, terlihat bahwa judul buku 'Dialogues with Silence: Prayers and Drawings' yang ditulis oleh 'Thomas Merton'. Selanjutnya, digunakan fungsi book_recommendations untuk menampilkan rekomendasi 5 buku teratas yang direkomendasikan sistem berdasarkan judul buku di Gambar 10. Hasilnya terlihat pada Gambar 11.
+Pada Gambar 10, terlihat bahwa judul buku Close to Home: A Novel of Suspense' ditulis oleh Peter Robinson. Selanjutnya, digunakan fungsi book_recommendations untuk menampilkan rekomendasi 5 buku teratas yang direkomendasikan sistem berdasarkan judul buku di Gambar 10. Hasilnya terlihat pada Gambar 11.
 
-![image](https://github.com/user-attachments/assets/7f46681d-5a7f-419b-930e-d8ef393706ec)
+![image](https://raw.githubusercontent.com/tomylive/Model-Content-Based-Filtering-Untuk-Rekomendasi-Buku/refs/heads/main/img/2024-11-28_23-20-40.jpg)
 
 Gambar 11. Hasil Rekomendasi 5 buku teratas dengan kategori nama penulis
 
