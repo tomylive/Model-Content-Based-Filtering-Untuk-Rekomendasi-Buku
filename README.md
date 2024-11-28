@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/99e960ad-2d12-4a44-8269-e4e46d321b86)
+![image](https://upload.wikimedia.org/wikipedia/commons/7/78/Chambery_interieur_mediatheque_600px.jpg)
 
 # Laporan Proyek Machine Learning - Irfan Saputra Nasution
 ## Project Overview
